@@ -22,4 +22,8 @@
         <java jar="build/jar/HelloWorld.jar" fork="true"/>
     </target>
 
+    <target name="test">
+        <mkdir dir="build/test"/>
+        
+    </target>
 </project>
